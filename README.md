@@ -27,14 +27,13 @@ because chrome tabs RAM utilization.
 So in this project I implemented the extension of the idea of saving the tab details
 such as tab tile and the url in a html file and then close the tabs by which no important tab will be missed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Built With
 
 * HTML
 * JavaScript
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
@@ -51,7 +50,7 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Click "Load unpacked" and select the directory containing your extension files.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -62,11 +61,10 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Update the format of the files which has the tabs data like the title and the url.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contact
 
 Sachin - [@Linkedin](https://www.linkedin.com/in/skale2/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
