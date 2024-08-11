@@ -14,7 +14,7 @@ chrome.tabs.onCreated.addListener(async () => {
     var blob = new Blob([content], {type: "text/html"});
     var date = new Date(); 
     const newDate = `${date.getUTCFullYear()}_${date.getUTCMonth() + 1}_${date.getUTCDay()}_${date.getHours()}_${date.getMinutes()}_${date.getSeconds()}`
-    const fileName = `ChromeClosedTabsUrls_${newDate}.html`;
+    const fileName = `TabManagerPro_${newDate}.html`;
     const dataURL = `data:${blob.type};base64,${btoa(content)}`;
     chrome.downloads.download({
       url: dataURL,

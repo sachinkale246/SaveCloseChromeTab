@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Tab Closer Extension",
+    "name": "Tab Manager Pro",
     "version": "1.0",
-    "description": "Saves the tab data into a html file and closes the most recently opened tabs if the total number of tabs exceeds 30.",
+    "description": "Tab Manager Pro is your ultimate solution for browser tab management. This extension efficiently tracks and organizes your open tabs by saving their titles and URLs. When your tab count exceeds 30, it automatically closes the oldest tabs to keep your workspace tidy and manageable. Whether you’re a power user juggling numerous tabs or someone looking to streamline their browsing experience, Tab Manager Pro ensures you stay organized and focused with minimal effort.",
     "permissions": ["tabs", "downloads"],
     "background": {
       "service_worker": "background.js"
