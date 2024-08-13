@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Tab Manager Pro",
-    "version": "1.0",
+    "version": "1.1",
     "description": "This extension saves tab titles/URLs and auto-closes tabs when count exceeds 30, keeping your browser organized and efficient.",
-    "permissions": ["tabs", "downloads"],
+    "permissions": ["tabs", "downloads","offscreen"],
     "background": {
       "service_worker": "background.js"
     },

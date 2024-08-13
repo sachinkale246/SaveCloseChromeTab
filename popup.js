@@ -5,3 +5,9 @@ document.getElementById('check-tabs').addEventListener('click', async () => {
     alert(`There are currently ${tabs.length} open tabs.`);
   });
   
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    const md = new Blob([message.mdText], { type: "text/mhtml" });
+    const url = URL.createObjectURL(md);
+    sendResponse({ url: url });
+    return true;
+  });
